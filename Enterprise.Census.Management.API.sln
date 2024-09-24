@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCF654D5-F09D-471B-906A-B3D55D8C2B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Census.Management.Domain", "Enterprise.Census.Management.Domain\Enterprise.Census.Management.Domain.csproj", "{53ADDB43-09F2-42A7-A72A-E93AC412028A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Census.Management.Application", "Enterprise.Census.Management.Application\Enterprise.Census.Management.Application.csproj", "{93EDD9AB-9466-494F-8C88-3804E63490AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Census.Management.Persistence", "Enterprise.Census.Management.Persistence\Enterprise.Census.Management.Persistence.csproj", "{156ED690-0DEB-42C7-B5B7-2DCDF17F326F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Census.Management.Test", "Enterprise.Census.Management.Test\Enterprise.Census.Management.Test.csproj", "{3C91684A-82AB-4FDC-BCC0-CC0C478567EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise.Census.Management.API", "Enterprise.Census.Management.API\Enterprise.Census.Management.API.csproj", "{3211F046-817B-4845-9A8E-139D040287C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53ADDB43-09F2-42A7-A72A-E93AC412028A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53ADDB43-09F2-42A7-A72A-E93AC412028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53ADDB43-09F2-42A7-A72A-E93AC412028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53ADDB43-09F2-42A7-A72A-E93AC412028A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EDD9AB-9466-494F-8C88-3804E63490AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EDD9AB-9466-494F-8C88-3804E63490AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EDD9AB-9466-494F-8C88-3804E63490AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EDD9AB-9466-494F-8C88-3804E63490AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156ED690-0DEB-42C7-B5B7-2DCDF17F326F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156ED690-0DEB-42C7-B5B7-2DCDF17F326F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156ED690-0DEB-42C7-B5B7-2DCDF17F326F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156ED690-0DEB-42C7-B5B7-2DCDF17F326F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C91684A-82AB-4FDC-BCC0-CC0C478567EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C91684A-82AB-4FDC-BCC0-CC0C478567EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C91684A-82AB-4FDC-BCC0-CC0C478567EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C91684A-82AB-4FDC-BCC0-CC0C478567EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3211F046-817B-4845-9A8E-139D040287C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3211F046-817B-4845-9A8E-139D040287C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3211F046-817B-4845-9A8E-139D040287C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3211F046-817B-4845-9A8E-139D040287C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53ADDB43-09F2-42A7-A72A-E93AC412028A} = {FCF654D5-F09D-471B-906A-B3D55D8C2B59}
+		{93EDD9AB-9466-494F-8C88-3804E63490AB} = {FCF654D5-F09D-471B-906A-B3D55D8C2B59}
+		{156ED690-0DEB-42C7-B5B7-2DCDF17F326F} = {FCF654D5-F09D-471B-906A-B3D55D8C2B59}
+		{3C91684A-82AB-4FDC-BCC0-CC0C478567EA} = {FCF654D5-F09D-471B-906A-B3D55D8C2B59}
+		{3211F046-817B-4845-9A8E-139D040287C1} = {FCF654D5-F09D-471B-906A-B3D55D8C2B59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87FD668A-CBFA-497B-9AF5-1E70C347E360}
+	EndGlobalSection
+EndGlobal

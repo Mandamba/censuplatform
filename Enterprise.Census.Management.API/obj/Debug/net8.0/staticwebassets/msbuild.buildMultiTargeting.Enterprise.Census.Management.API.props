@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Enterprise.Census.Management.API.props" />
+</Project>

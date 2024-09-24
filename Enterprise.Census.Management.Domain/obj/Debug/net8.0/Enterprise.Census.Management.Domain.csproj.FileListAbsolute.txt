@@ -1,0 +1,66 @@
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.deps.json
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfo.cs
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\refint\Enterprise.Census.Management.Domain.dll
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\PC\Documents\BackendSite\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\ref\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.deps.json
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfo.cs
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\refint\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Documents\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\ref\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.deps.json
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfo.cs
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\refint\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Music\Censo\Backend\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\ref\Enterprise.Census.Management.Domain.dll
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.deps.json
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfoInputs.cache
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfo.cs
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.csproj.CoreCompileInputs.cache
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\refint\Enterprise.Census.Management.Domain.dll
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+F:\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\ref\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.deps.json
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfo.cs
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\refint\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Documents\Sistema Atualizado do censo\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\ref\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.deps.json
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\bin\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.AssemblyInfo.cs
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\refint\Enterprise.Census.Management.Domain.dll
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\ACER\Documents\Current Project\Enterprise.Census.API\Enterprise.Census.API\Enterprise.Census.Management.Domain\obj\Debug\net8.0\ref\Enterprise.Census.Management.Domain.dll

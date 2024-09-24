@@ -1,0 +1,2 @@
+﻿namespace Enterprise.Census.Management.Application.DTOs.Responses.EmploymentInformationResponse;
+public record GetAllEmploymentInformationResponse(List<GetEmploymentInformationResponse> EmploymentInformationList);

@@ -1,0 +1,20 @@
+﻿namespace Enterprise.Census.Management.Application.DTOs.Responses.Person;
+public record GetPersonResponse(
+    long Id,
+    string IdentificationNumber,
+    string FullName,
+    string FatherName,
+    string MotherName,
+    string Residence,
+    string PlaceOfBirth,
+    string Province,
+    DateTimeOffset DateOfBirth,
+    string Gender,
+    string IssuingPlace,
+    DateTimeOffset ExpirationDate,
+    string PhoneNumber,
+    string UpdatedPhoneNumber,
+    string Nif,
+    string SocialSecurityNumber,
+    string AlternativeContact,
+    string AlternativeContactName);

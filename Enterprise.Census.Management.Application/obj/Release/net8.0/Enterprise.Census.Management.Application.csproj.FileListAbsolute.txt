@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\bin\Release\net8.0\Enterprise.Census.Management.Application.deps.json
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\bin\Release\net8.0\Enterprise.Census.Management.Application.dll
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\bin\Release\net8.0\Enterprise.Census.Management.Application.pdb
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\bin\Release\net8.0\Enterprise.Census.Management.Domain.dll
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\bin\Release\net8.0\Enterprise.Census.Management.Domain.pdb
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.AssemblyInfo.cs
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.sourcelink.json
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterpri.58CB717C.Up2Date
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.dll
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\refint\Enterprise.Census.Management.Application.dll
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\Enterprise.Census.Management.Application.pdb
+C:\Users\PC\Documents\cloned\backend\censuplatform\Enterprise.Census.Management.Application\obj\Release\net8.0\ref\Enterprise.Census.Management.Application.dll

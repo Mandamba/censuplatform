@@ -1,5 +1,7 @@
-﻿using Enterprise.Census.Management.Application.DTOs.Requests.EducationalQualification;
+﻿using Enterprise.Census.Management.Application.DTOs.Requests;
+using Enterprise.Census.Management.Application.DTOs.Requests.EducationalQualification;
 using Enterprise.Census.Management.Application.DTOs.Requests.Person;
+using Enterprise.Census.Management.Application.DTOs.Responses;
 using Enterprise.Census.Management.Application.DTOs.Responses.EducationalQualification;
 using Enterprise.Census.Management.Application.DTOs.Responses.Person;
 using MediatR;
@@ -30,4 +32,28 @@ public class CreatePersonController : ControllerBase
         var response = await _mediator.Send(request, cancellationToken);
         return response;
     }
+
+    [HttpGet("getPersonByBi/{bi}")]
+    public async Task<ActionResult<CreatePersonResponse>> GetPersonData(string bi)
+    {
+        if (string.IsNullOrWhiteSpace(bi))
+        {
+            return BadRequest("O número de identificação é obrigatório.");
+        }
+
+        try
+        {
+            var personData = await _mediator.Send(new GetPersonByIdentificationNumberRequest(bi));
+            return Ok(personData);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest($"Erro: {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Erro ao obter dados: {ex.Message}");
+        }
+    }
+
 }

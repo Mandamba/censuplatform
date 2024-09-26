@@ -1,38 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj": {}
+    "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj": {
+    "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj",
         "projectName": "Enterprise.Census.Management.API",
-        "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.API\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.API\\Enterprise.Census.Management.API.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\combit\\LL29\\Samples\\Microsoft .NET": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj"
+              "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj"
               },
-              "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj"
+              "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj"
               }
             }
           }
@@ -52,6 +59,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -90,36 +101,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj": {
+    "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj",
         "projectName": "Enterprise.Census.Management.Application",
-        "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\combit\\LL29\\Samples\\Microsoft .NET": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj"
+              "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj"
               }
             }
           }
@@ -172,28 +190,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj": {
+    "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj",
         "projectName": "Enterprise.Census.Management.Domain",
-        "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\combit\\LL29\\Samples\\Microsoft .NET": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -232,39 +257,46 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj": {
+    "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj",
         "projectName": "Enterprise.Census.Management.Persistence",
-        "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Persistence\\Enterprise.Census.Management.Persistence.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\combit\\LL29\\Samples\\Microsoft .NET": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj"
+              "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Application\\Enterprise.Census.Management.Application.csproj"
               },
-              "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj": {
-                "projectPath": "C:\\Users\\ACER\\Documents\\Current Project\\Enterprise.Census.API\\Enterprise.Census.API\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj"
+              "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Documents\\cloned\\backend\\censuplatform\\Enterprise.Census.Management.Domain\\Enterprise.Census.Management.Domain.csproj"
               }
             }
           }
@@ -345,7 +377,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

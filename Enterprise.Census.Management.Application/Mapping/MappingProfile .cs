@@ -411,6 +411,8 @@ public sealed class MappingProfile : Profile
 
         // Mapeamento de Entidade para Response
         CreateMap<Person, CreatePersonResponse>()
+            .ForMember(dest => dest.ExistedPersonSuccess, opt => opt.Ignore())
+            .ForMember(dest => dest.Message, opt => opt.Ignore())
             .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
             .ForMember(dest => dest.IdentificationNumber, opt => opt.MapFrom(src => src.IdentificationNumber))
             .ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.FullName))
@@ -471,10 +473,10 @@ public sealed class MappingProfile : Profile
         #region Spoken Language
 
         CreateMap<SpokenLanguages, CreateLanguageResponse>()
-            .ForMember(dest => dest.Language, opt => opt.MapFrom(src => src.Languages.Language))
+            .ForMember(dest => dest.Language, opt => opt.MapFrom(src => src.Language.Language))
             .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.LanguageId));
         CreateMap<SpokenLanguages, CreateSpokenLanguageResponse>()
-            .ForMember(dest => dest.LanguageName, opt => opt.MapFrom(src => src.Languages.Language))
+            .ForMember(dest => dest.LanguageName, opt => opt.MapFrom(src => src.Language.Language))
             .ForMember(dest => dest.LanguageId, opt => opt.MapFrom(src => src.LanguageId))
             .ForMember(dest => dest.PersonName, opt => opt.MapFrom(src => src.Person.FullName))
             .ForMember(dest => dest.PersonId, opt => opt.MapFrom(src => src.PersonId));

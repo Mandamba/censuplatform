@@ -15,8 +15,9 @@ public static class ServiceExtensions
     {
         var connectionString = configuration.GetConnectionString("DefaultConnection");
         services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(connectionString, optionsBuilder =>
+            options.UseSqlServer(connectionString, optionsBuilder =>
             optionsBuilder.MigrationsAssembly("Enterprise.Census.Management.API")));
+
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<ICategoryRepository, CategoryRepository>();
         services.AddScoped<IContractTypeRepository, ContractTypeRepository>();

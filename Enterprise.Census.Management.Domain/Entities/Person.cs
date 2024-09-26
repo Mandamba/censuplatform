@@ -9,10 +9,10 @@
         public string Residence { get; set; }
         public string PlaceOfBirth { get; set; }
         public string Province { get; set; }
-        public DateTimeOffset DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string IssuingPlace { get; set; }
-        public DateTimeOffset ExpirationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
         public string PhoneNumber { get; set; }
         public string UpdatedPhoneNumber { get; set; }
         public string Nif { get; set; }

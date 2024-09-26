@@ -4,12 +4,14 @@
     {
         public static void ConfigureCoresPolicy(this IServiceCollection services)
         {
-            services.AddCors(opt =>
+            services.AddCors(options =>
             {
-                opt.AddDefaultPolicy(builder => builder 
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader());
+                options.AddPolicy("AllowSpecificOrigin", builder =>
+                {
+                    builder.WithOrigins("https://censusplatformfrontend.vercel.app")
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
             });
         }
     }

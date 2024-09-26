@@ -1,14 +1,15 @@
 ﻿using Enterprise.Census.Management.Application.DTOs.Responses.EducationalQualification;
 using Enterprise.Census.Management.Application.DTOs.Responses.EmploymentInformationResponse;
 using Enterprise.Census.Management.Application.DTOs.Responses.PaymentInformation;
-using Enterprise.Census.Management.Application.DTOs.Responses.SpokenLanguage;
 using Enterprise.Census.Management.Application.DTOs.Responses.WorkerCarrear;
 
-namespace Enterprise.Census.Management.Application.DTOs.Responses.Person
+namespace Enterprise.Census.Management.Application.DTOs.Responses
 {
     public record CreatePersonResponse
     {
         public long Id { get; set; }
+        public bool ExistedPersonSuccess { get; set; } = false;
+        public string Message { get; set; }
         public string IdentificationNumber { get; set; }
         public string FullName { get; set; }
         public string FatherName { get; set; }
@@ -16,10 +17,10 @@ namespace Enterprise.Census.Management.Application.DTOs.Responses.Person
         public string Residence { get; set; }
         public string PlaceOfBirth { get; set; }
         public string Province { get; set; }
-        public DateTimeOffset DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string IssuingPlace { get; set; }
-        public DateTimeOffset ExpirationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
         public string PhoneNumber { get; set; }
         public string UpdatedPhoneNumber { get; set; }
         public string Nif { get; set; }
@@ -46,10 +47,10 @@ namespace Enterprise.Census.Management.Application.DTOs.Responses.Person
             string residence,
             string placeOfBirth,
             string province,
-            DateTimeOffset dateOfBirth,
+            DateTime dateOfBirth,
             string gender,
             string issuingPlace,
-            DateTimeOffset expirationDate,
+            DateTime expirationDate,
             string phoneNumber,
             string updatedPhoneNumber,
             string nif,

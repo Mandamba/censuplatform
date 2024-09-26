@@ -1,9 +1,6 @@
 ﻿using AutoMapper;
-using Enterprise.Census.Management.Application.DTOs.Requests.Person;
+using Enterprise.Census.Management.Application.DTOs.Requests;
 using Enterprise.Census.Management.Application.DTOs.Responses;
-using Enterprise.Census.Management.Application.DTOs.Responses.Person;
-using Enterprise.Census.Management.Application.DTOs.Responses.WorkerCarrear;
-using Enterprise.Census.Management.Application.DTOs.Responses.WorkerFunction;
 using Enterprise.Census.Management.Domain.Entities;
 using Enterprise.Census.Management.Domain.Interfaces;
 using MediatR;
@@ -59,6 +56,16 @@ public class CreatePersonHandler : IRequestHandler<CreatePersonRequest, CreatePe
         await _unitOfWork.BeginTransactionAsync(cancellationToken);
         try
         {
+            var existingPerson = await _personRepository.GetPersonByBI(request.IdentificationNumber, cancellationToken);
+            if (existingPerson != null)
+            {
+                return new CreatePersonResponse
+                {
+                    ExistedPersonSuccess = false,
+                    Message = "A pessoa com este número de BI já está registrada."
+                };
+            }
+
             var person = new Person
             {
                 IdentificationNumber = request.IdentificationNumber,

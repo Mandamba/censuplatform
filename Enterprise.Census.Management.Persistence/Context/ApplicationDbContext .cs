@@ -46,5 +46,22 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Person>()
             .Property(p => p.Id)
             .ValueGeneratedOnAdd();
+        modelBuilder.Entity<WorkZone>()
+       .HasOne(wz => wz.WorkerState)
+       .WithMany()
+       .HasForeignKey(wz => wz.WorkerStateId)
+       .OnDelete(DeleteBehavior.NoAction);
+
+        modelBuilder.Entity<WorkZone>()
+            .HasOne(wz => wz.WorkerCondition)
+            .WithMany()
+            .HasForeignKey(wz => wz.WorkerConditionId)
+            .OnDelete(DeleteBehavior.NoAction);
+
+        modelBuilder.Entity<WorkZone>()
+            .HasOne(wz => wz.Person)
+            .WithMany()
+            .HasForeignKey(wz => wz.PersonId)
+            .OnDelete(DeleteBehavior.NoAction);
     }
 }

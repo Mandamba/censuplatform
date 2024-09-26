@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YSmDlm/8A5S1ohwUpPxO/M/uuczgPwIN4xOmxvK/olc=",
+  "Source": "Enterprise.Census.Management.API",
+  "BasePath": "_content/Enterprise.Census.Management.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

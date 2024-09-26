@@ -94,12 +94,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowSpecificOrigin");
 
-// Configurar CORS antes da autenticação/autorização
-app.UseCors();
-
-// Adicionar middleware de autenticação antes da autorização
-app.UseAuthentication(); // Adicionar esta linha
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

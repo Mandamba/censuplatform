@@ -2,10 +2,10 @@
 using Enterprise.Census.Management.Application.DTOs.Requests.EmploymentInformationRequest;
 using Enterprise.Census.Management.Application.DTOs.Requests.PaymentInformation;
 using Enterprise.Census.Management.Application.DTOs.Requests.WorkerCarrear;
-using Enterprise.Census.Management.Application.DTOs.Responses.Person;
+using Enterprise.Census.Management.Application.DTOs.Responses;
 using MediatR;
 
-namespace Enterprise.Census.Management.Application.DTOs.Requests.Person;
+namespace Enterprise.Census.Management.Application.DTOs.Requests;
 public record CreatePersonRequest(
     string IdentificationNumber,
     string FullName,
@@ -14,10 +14,10 @@ public record CreatePersonRequest(
     string Residence,
     string PlaceOfBirth,
     string Province,
-    DateTimeOffset DateOfBirth,
+    DateTime DateOfBirth,
     string Gender,
     string IssuingPlace,
-    DateTimeOffset ExpirationDate,
+    DateTime ExpirationDate,
     string PhoneNumber,
     string UpdatedPhoneNumber,
     string Nif,

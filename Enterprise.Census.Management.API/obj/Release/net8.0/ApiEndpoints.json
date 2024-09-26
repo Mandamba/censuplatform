@@ -1,0 +1,774 @@
+[
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.AditionalTrainingController",
+    "Method": "Create",
+    "RelativePath": "api/AditionalTraining",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.CreateAiditionalTrainingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Enterprise.Census.Management.Application.DTOs.Responses.CreateAiditionalTrainingResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.AsitionalInformationController",
+    "Method": "GetAll",
+    "RelativePath": "api/AsitionalInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.AditionalInfoResponse.GetAllAditionalInformationResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FUTTURE.MANAGEMENT.REPORT.API.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.ChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FUTTURE.MANAGEMENT.REPORT.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.SendLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FUTTURE.MANAGEMENT.REPORT.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FUTTURE.MANAGEMENT.REPORT.API.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.SendResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FUTTURE.MANAGEMENT.REPORT.API.Controllers.AuthController",
+    "Method": "RequestPasswordReset",
+    "RelativePath": "api/Auth/reset-password-request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.User.PasswordResetRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.BankController",
+    "Method": "GetAll",
+    "RelativePath": "api/Bank",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.GetAllBankResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.EducationalQualification.CreateEducationalQualificationController",
+    "Method": "Create",
+    "RelativePath": "api/CreateEducationalQualification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.EducationalQualification.CreateEducationalQualificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Enterprise.Census.Management.Application.DTOs.Responses.EducationalQualification.CreateEducationalQualificationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.EmploymentInformation.CreateEmploymentInformationController",
+    "Method": "Create",
+    "RelativePath": "api/CreateEmploymentInformation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.EmploymentInformationRequest.CreateEmploymentInformationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Enterprise.Census.Management.Application.DTOs.Responses.EmploymentInformationResponse.CreateEmploymentInformationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.CreatePaymentInformationController",
+    "Method": "Create",
+    "RelativePath": "api/CreatePaymentInformation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.PaymentInformation.CreatePaymentInformationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Enterprise.Census.Management.Application.DTOs.Responses.PaymentInformation.CreatePaymentInformationResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Person.CreatePersonController",
+    "Method": "Create",
+    "RelativePath": "api/CreatePerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Enterprise.Census.Management.Application.DTOs.Requests.CreatePersonRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Enterprise.Census.Management.Application.DTOs.Responses.CreatePersonResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Person.CreatePersonController",
+    "Method": "GetPersonData",
+    "RelativePath": "api/CreatePerson/getPersonByBi/{bi}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bi",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Enterprise.Census.Management.Application.DTOs.Responses.CreatePersonResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.EmployerEntity.EmployerEntityController",
+    "Method": "GetAll",
+    "RelativePath": "api/EmployerEntity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.EmployerEntity.GetAllEmployerEntitiesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Category.GetAllCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Category.GetAllCategoriesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.ContractType.GetAllContractTypeController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllContractType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.ContractType.GetAllContractTypesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Cores.GetAllCoresController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllCores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Core.GetAllCoresResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Category.GetAllCountriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllCountries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.GetAllCountriesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Degrees.GetAllDegreesController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllDegrees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Degree.GetAllDegreesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Department.GetAllDepartmentController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Department.GetAllDepartmentResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Category.GetAllDirectionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllDirections",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Direction.GetAllDirectionsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Category.GetAllDivisionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllDivisions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Division.GetAllDivisionsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.EmploymentBond.GetAllEmploymentBondController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllEmploymentBond",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.EmploymentBond.GetAllEmploymentBondsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.FrameWork.GetAllFrameWorkController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllFrameWork",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Framework.GetAllFrameWorksResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Functions.GetAllFunctionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllFunctions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Function.GetAllFunctionsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.JobGroup.GetAllJobGroupsController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllJobGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.JobGroup.GetAllJobGroupsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Position.GetAllPositionController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllPosition",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Position.GetAllPositionsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.SubGroup.GetAllSubCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllSubCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.Subcategory.GetAllSubCategoriesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.WorkBand.GetAllWorkBandController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllWorkBand",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.WorkBand.GetAllWorkBandsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.WorkerCondition.GetAllWorkerConditionController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllWorkerCondition",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.WorkerCondition.GetAllWorkerConditionsResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.WorkerState.GetAllWorkerStateController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllWorkerState",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.WorkerStateResponse.GetAllWorkerStatesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.WorkRegime.GetAllWorkRegimeController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllWorkRegime",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.WorkRegime.GetAllWorkRegimesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.GetAllWorkZoneController",
+    "Method": "GetAll",
+    "RelativePath": "api/GetAllWorkZone",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.WorkerZone.GetAllWorkZonesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Languages.LanguagesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Languages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.GetAllLanguagesResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Person.PersonController",
+    "Method": "GetPersonData",
+    "RelativePath": "api/Person/{bi}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bi",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Province.ProvinceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Province",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.GetAllProvinceResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.Section.SectionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Section",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Enterprise.Census.Management.Application.DTOs.Responses.SectionResponse.GetAllSectionResponse, Enterprise.Census.Management.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Enterprise.Census.Management.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Enterprise.Census.Management.API.WeatherForecast, Enterprise.Census.Management.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
